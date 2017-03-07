@@ -1,0 +1,203 @@
+body {
+    margin: 0 auto;
+    background-color: #1A1A1A;
+}
+
+/* Headings and paragraphs. */
+
+h1 {
+	font-size: 40px;
+	color: #660033;
+	position: relative;
+	text-align: center;
+}
+
+h2 {
+	font-size: 35px;
+	color: #660033;
+}
+
+h3 {
+	font-size: 13px;
+	color: #1A1A1A;
+	font-family: helvetica;
+}
+
+p {
+	font-size: 14px;
+	font-family: helvetica;
+}
+
+.infoCenter {
+	color: #FFFFFF;
+	font-family: helvetica;
+	text-align: center;
+}
+
+span {
+	color: #800040;
+}
+
+a {
+	color: #001a4d;
+	text-decoration: none;
+}
+
+/* Navigation bar */
+
+header {
+	width: auto;
+	height: auto;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+    background: #33001a;
+}
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+li a {
+	display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:hover {
+	background-color: #800040;
+}
+
+.imagePrincipal{
+	width: 100%;
+	opacity: .7;
+}
+
+/* Page title and summary */
+
+#title {
+	background-color: #211b1b;
+	padding: 1px;
+}
+
+#main {
+	display: flex;
+	border-top: solid 2px #dddbdb;
+}
+
+.imageLeft {
+	float: left;
+	height: 230px;
+	width: 170px;
+	margin-right: 20px;
+	border: solid 1px #33001a;
+}
+
+#thePlot {
+	background-color: #F2F2F2;
+	padding: 30px;
+	flex: 3;
+	text-align: justify;
+}
+
+#details {
+	background-color: #dbd9d9;
+	padding: 30px;
+	flex: 1;
+}
+
+/* List of the characters of Velvet. */
+
+#theCast {
+	width: auto;
+	text-align: center;
+	display: inline;
+	overflow: hidden;
+}
+
+.cast {
+	width: auto;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.character {
+	flex: 1;
+	background-color: #262626;
+	margin: 2px;
+	overflow: hidden;
+}
+
+.character:hover {
+	background-color: #F2F2F2;
+	transition: 3s;
+}
+
+.imageCast {
+	min-width: 350px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.imageCast img {
+	flex: 1;
+	background-color: #262626;
+	margin: 2px;
+}
+
+.imageCast:hover {
+	opacity: .2;
+	transition: 1s;
+}
+
+/* Seasons page */
+
+#season {
+	text-align: center;
+	padding-top: 40px;
+}
+
+iframe {
+	border: solid 1.5px #333333;
+}
+
+table {
+	width: 100%;
+	background-color: #03031E;
+}
+
+th, td {
+	color: #03031E;
+	padding: 10px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+th {
+	background-color: #382f2f;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td {
+	background-color: #dbd9d9;
+	font-size: 13px;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #33001a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
