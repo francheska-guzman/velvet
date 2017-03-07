@@ -8,7 +8,10 @@ March 7, 2017
 <html>
 <head>
 	<meta charset="utf-8">
+	<!-- External css file -->
 	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|PT+Sans" rel="stylesheet">
 	<title>Galerias Velvet</title>
 </head>
 <!-- Navigation bar -->
@@ -16,6 +19,7 @@ March 7, 2017
 <nav>
 <li><a href="index.html" class="active">HOME</a></li>
 <li><a href="seasons.html" class="active">SEASONS</a></li>
+<li><a href="http://www.antena3.com/series/velvet/" target="_blank">OFFICIAL SITE</a></li>
 </nav>
 </header>
 <body>
@@ -92,10 +96,27 @@ March 7, 2017
 </div>
 </body>
 <footer>
-<p class="infoCenter">Francheska Guzman<br>CodeBridge<br>Cycle 2 Cohort 4<br>Project 1: March 7, 2017<p>
 <!-- Audio only in the homepage. -->
 <audio autoplay>
 <source src="media/velvet.mp3" type="audio/mpeg">
 </audio>
+<!-- Contact Me -->
+<a href="#openInfo">CONTACT ME</a>
+<div id="openInfo" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Contact:<br/>Francheska Guzman</h2>
+		<p class="infoCenter">
+		<form>
+		<span>First Name:</span> <input type="text" name="First Name" placeholder="Enter First Name"/><br><br>
+		<span>Last Name:</span> <input type="text" name="Last Name" placeholder="Enter Last Name"/><br><br>
+		<span>Phone Number:</span> <input type="phone" name="Phone" placeholder="Enter Phone Number"/><br><br>
+		<span>E-mail:</span> <input type="text" name="Email" placeholder="Enter Email"/><br><br>
+		<span>Comment:</span> <input type="text" name="text" placeholder="Enter Comment"/><br><br>
+		<input type="submit" name="button">
+		</form>
+		<p>
+	</div>
+</div>
 </footer>
 </html>

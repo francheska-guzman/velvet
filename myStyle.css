@@ -6,15 +6,21 @@ body {
 /* Headings and paragraphs. */
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	color: #660033;
 	position: relative;
 	text-align: center;
+	font-family: 'Droid Serif', serif;
+}
+
+h1:hover {
+	color: #990033;
 }
 
 h2 {
 	font-size: 35px;
 	color: #660033;
+	font-family: 'PT Sans', sans-serif;
 }
 
 h3 {
@@ -39,7 +45,7 @@ span {
 }
 
 a {
-	color: #001a4d;
+	color: #0f0e0e;
 	text-decoration: none;
 }
 
@@ -53,7 +59,7 @@ header {
 nav {
 	width: 100%;
 	text-align: center;
-    background: #33001a;
+    background: #33001A;
 }
 
 li {
@@ -74,7 +80,7 @@ li a:hover {
 	background-color: #800040;
 }
 
-.imagePrincipal{
+.imagePrincipal {
 	width: 100%;
 	opacity: .7;
 }
@@ -159,6 +165,18 @@ li a:hover {
 	transition: 1s;
 }
 
+/* When hover images of cast, shows name of actor. */
+
+.aboutCast {
+	visibility: hidden;
+	position: relative;
+}
+
+.aboutCast:hover {
+	visibility: visible;
+	transition: 1s;
+}
+
 /* Seasons page */
 
 #season {
@@ -172,11 +190,11 @@ iframe {
 
 table {
 	width: 100%;
-	background-color: #03031E;
+	background-color: #1c1819;
 }
 
 th, td {
-	color: #03031E;
+	color: #1c1819;
 	padding: 10px;
 	text-align: center;
 	font-family: helvetica;
@@ -194,10 +212,103 @@ td {
 	font-size: 13px;
 }
 
+.leftT {
+	width: 10%;
+	color: #282626;
+	font-size: 20px;
+	background-color: #c6c0c0;
+}
+
+.middleT {
+	width: 70%;
+	text-align: justify;
+}
+
+.rightT {
+	width: 30%;
+}
+
 footer {
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	background-color: #33001a;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+#openInfo {
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: arial, helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+	background: #00d9ff; 
+}
+
+/* Contact form */
+
+form {
+	text-align: left;
+	padding: 20px;
+}
+
+input[type=text], input[type=phone], input[type=email], input[type=comment] {
+	width: auto;
+	height: 20px;
 }
