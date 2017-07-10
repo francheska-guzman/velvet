@@ -1,4 +1,4 @@
-Per Scholas | Project 1
+Per Scholas | Project 2
 
 # Velvet
 
