@@ -29,7 +29,7 @@ Visit the site and navigate through "Home" and "Seasons". To get more informatio
 
 ## <a id="compatibility">Cross-browser compatibility</a>
 
-This site as been tested in the following browsers:
+This site has been tested in the following browsers:
 
 Chrome – Version 59.0.3071.115 
 
