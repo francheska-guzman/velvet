@@ -6,6 +6,7 @@
 2. [Description](#description)
 3. [How to use](#instructions)
 4. [Technologies used](#technologies)
+5. [Cross-browser compatibility](#compatibility)
 
 ## <a id="about">About the project</a>
 
@@ -25,3 +26,13 @@ Visit the site and navigate through "Home" and "Seasons". To get more informatio
 
 * HTML
 * CSS
+
+## <a id="compatibility">Cross-browser compatibility</a>
+
+This site as been tested in the following browsers:
+
+Chrome – Version 59.0.3071.115 
+
+Firefox – Version 54.0.1
+
+Safari – Version 9.1.2
