@@ -20,7 +20,7 @@ h1:hover {
 h2 {
 	font-size: 35px;
 	color: #660033;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Droid Serif', serif;
 }
 
 h3 {
@@ -42,6 +42,7 @@ p {
 
 span {
 	color: #800040;
+	font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -75,9 +76,10 @@ li a {
 	display: inline-block;
     color: #FFFFFF;
     text-align: center;
-    padding: 18px 18px;
+    padding: 18px 0px;
     text-decoration: none;
     font-size: 18px;
+    width: 150px;
 }
 
 li a:hover {
