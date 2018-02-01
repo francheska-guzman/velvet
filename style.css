@@ -1,4 +1,5 @@
 body {
+	width: 1150px;
     margin: 0 auto;
     background-color: #1A1A1A;
 }
@@ -127,51 +128,21 @@ li a:hover {
 /* List of the characters of Velvet. */
 
 #theCast {
-	width: auto;
 	text-align: center;
-	display: inline;
 	overflow: hidden;
 }
 
 .cast {
-	width: auto;
-	height: 300px;
-	display: flex;
-	justify-content: space-between;
-	overflow: hidden;
-}
-
-.character {
-	flex: 1;
-	background-color: #262626;
-	margin: 2px;
-	overflow: hidden;
-}
-
-.character:hover {
-	background-color: #F2F2F2;
-	transition: 3s;
+	height: 250px;
+	display: inline;
 }
 
 .imageCast {
-	min-width: 350px;
-	height: 300px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.imageCast img {
-	flex: 1;
+	width: 284px;
+	height: 230px;
 	background-color: #262626;
-	margin: 2px;
 }
 
-/* When hover images of cast, shows name of actor. */
-
-.aboutCast {
-	visibility: hidden;
-	position: relative;
-}
 /* Seasons page */
 
 #season {
@@ -227,10 +198,18 @@ footer {
 	height: 50px;
 	background-color: #33001a;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	font-size: 18px;
 	color: #998e8e;
 	text-align: center;
+}
+
+.footer-info {
+	color: #dbd9d9;
+}
+
+.footer-info:hover {
+	color: #f8f8f8;
 }
 
 #openInfo {
