@@ -12,14 +12,13 @@ h1 {
 	position: relative;
 	text-align: center;
 	font-family: 'Droid Serif', serif;
-}
-
-h1:hover {
-	color: #990033;
+	animation-name: colorchange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 40px;
 	color: #660033;
 	font-family: 'Droid Serif', serif;
 }
@@ -31,7 +30,7 @@ h3 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: helvetica;
 }
 
@@ -106,8 +105,8 @@ li a:hover {
 
 .imageLeft {
 	float: left;
-	height: 230px;
-	width: 170px;
+	height: 280px;
+	width: 210px;
 	margin-right: 20px;
 	border: solid 1px #33001a;
 }
@@ -300,4 +299,13 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	opacity: 1;
+}
+
+@keyframes colorchange {
+    0% {
+    	color: #660033;
+    }
+    50% {
+    	color: #990033;
+    }
 }
