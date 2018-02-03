@@ -132,13 +132,13 @@ li a:hover {
 }
 
 .cast {
-	height: 250px;
+	height: 284px;
 	display: inline;
 }
 
 .imageCast {
 	width: 284px;
-	height: 230px;
+	height: 284px;
 	background-color: #262626;
 }
 
